@@ -91,6 +91,8 @@ body, html {
 .marginauto {
 	margin: 10px auto 20px;
 	display: block;
+	margin-left: 35px;
+    margin-top: -150px;
 }
 
 #Home {background-color: #8963BA;}
