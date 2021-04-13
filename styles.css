@@ -103,9 +103,8 @@ body, html {
 }
 
 #Home {background-color: mistyrose;}
-#AboutMe{background-color: mistyrose;}
-#Projects {background-color: peachpuff;}
-#Education {background-color: lavenderblush;}
-#Experience {background-color: lavenderblush;}
-#Skills {background-color: lavenderblush;}
-#ContactMe {background-color: lavenderblush;}
+#Instructions {background-color: mistyrose;}
+#Controls {background-color: peachpuff;}
+#XMLHelp {background-color: lavenderblush;}
+#FAQs {background-color: lavenderblush;}
+#CopyrightNotice {background-color: lavenderblush;}

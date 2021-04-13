@@ -12,15 +12,37 @@
 	<h1 align="center">Instructions & Help<h1>
 
 	<button class="tablink" onclick="openPage('Home', this, 'mistyrose')" id="defaultOpen">Home</button>
-	<button class="tablink" onclick="openPage('AboutMe', this, 'mistyrose')" id="defaultOpen">About Me</button>
-	<button class="tablink" onclick="openPage('Projects', this, 'peachpuff')">Projects</button>
-	<button class="tablink" onclick="openPage('Education', this, 'lavenderblush')">Education</button>
-	<button class="tablink" onclick="openPage('Experience', this, 'lavenderblush')">Experience</button>
-	<button class="tablink" onclick="openPage('Skills', this, 'lavenderblush')">Skills</button>
-	<button class="tablink" onclick="openPage('ContactMe', this, 'lavenderblush')">Contact Me</button>
+	<button class="tablink" onclick="openPage('Instructions', this, 'mistyrose')" id="defaultOpen">Instructions</button>
+	<button class="tablink" onclick="openPage('Controls', this, 'peachpuff')">Controls</button>
+	<button class="tablink" onclick="openPage('XMLHelp', this, 'lavenderblush')">XML Help</button>
+	<button class="tablink" onclick="openPage('FAQs', this, 'lavenderblush')">FAQs</button>
+	<button class="tablink" onclick="openPage('CopyrightNotice', this, 'lavenderblush')">Copyright Notice</button>
 	
-	<p>The following link will direct you to a tutorial on how to create XML documents.</p>
-	<a href="https://www.w3schools.com/xml/default.asp">XML Tutorial</a>
+	<div id="Home" class="tabcontent">
+		<h2>Welcome to the Home page!</h2>
+	</div>
+	
+	<div id="Instructions" class="tabcontent">
+		<h2>Welcome to the Instructions page!</h2>
+	</div>
+	
+	<div id="Controls" class="tabcontent">
+		<h2>Welcome to the Controls page!</h2>
+	</div>
+	
+	<div id="XMLHelp" class="tabcontent">
+		<h2>Welcome to the XML Help page!</h2>
+			<p>The following link will direct you to a tutorial on how to create XML documents.</p>
+			<a href="https://www.w3schools.com/xml/default.asp">XML Tutorial</a>
+	</div>
+	
+	<div id="FAQs" class="tabcontent">
+		<h2>Welcome to the FAQs page!</h2>
+	</div>
+	
+	<div id="CopyrightNotice" class="tabcontent">
+		<h2>Welcome to the Copyright Notice page!</h2>
+	</div>
 	
 <script>
 function openPage(pageName, elmnt, color) {
