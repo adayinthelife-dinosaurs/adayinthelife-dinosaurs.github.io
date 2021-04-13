@@ -1,0 +1,111 @@
+body {
+	background-color: skyblue;
+}
+h1 {
+	color: midnightblue;
+	font-family: "American Typewriter", American, serif;
+	margin: 0px;
+	padding-top: .67em;
+	padding-bottom: .67em;
+}
+h2 {
+	color: black;
+}
+h3 {
+	color: black;
+	text-align: center;
+}
+h4 {
+	color: black;
+}
+h5 {
+	color: black;
+}
+p {
+	color: black;
+}
+ul {
+	color: black;
+}
+#Author{
+	color: black;
+	font-family: "American Typewriter", American, serif;
+	background-color: lightgray;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+#MaeJemison{
+	color: white;
+	font-family: "American Typewriter", American, serif;
+	background-color: midnightblue;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+footer {
+	position: fixed;
+	clear: both;
+	text-align: left;
+	color: midnightblue;
+	border-top: 1px solid #999;
+	width: 900 px;
+	bottom: 0px;
+	height: 50px;
+	background-color: skyblue;
+}
+
+p.clear {
+ 	clear: both;
+}
+
+body, html {
+  	margin: 0;
+  	font-family: Arial;
+}
+
+.tablink {
+  	background-color: lightslategray;
+  	color: black;
+  	float: left;
+  	border: none;
+  	outline: none;
+  	cursor: pointer;
+  	padding: 14px 16px;
+  	font-size: 17px;
+  	width: 14.286%;
+}
+
+.tablink:hover {
+  	background-color: #777;
+}
+
+.tabcontent {
+  	color: white;
+  	display: none;
+ 	padding: 100px 20px;
+  	height: 100%;
+}
+
+.marginauto {
+	margin: 10px auto 20px;
+	display: block;
+}
+
+#Home {background-color: mistyrose;}
+#AboutMe{background-color: mistyrose;}
+#Projects {background-color: peachpuff;}
+#Education {background-color: lavenderblush;}
+#Experience {background-color: lavenderblush;}
+#Skills {background-color: lavenderblush;}
+#ContactMe {background-color: lavenderblush;}
