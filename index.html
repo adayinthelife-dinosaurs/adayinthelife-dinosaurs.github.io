@@ -1,8 +1,51 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
 	<body>
-		<h1>Instructions</h1>
-			<p>The following link will direct you to a tutorial on how to create XML documents.</p>
-			<a href="https://www.w3schools.com/xml/default.asp">XML Tutorial</a>
+	<h1 align="center">A Day in the Life: Dinosaurs</h1>
+	<h1 align="center">Instructions & Help<h1>
+
+	<button class="tablink" onclick="openPage('Home', this, 'mistyrose')" id="defaultOpen">Home</button>
+	<button class="tablink" onclick="openPage('AboutMe', this, 'mistyrose')" id="defaultOpen">About Me</button>
+	<button class="tablink" onclick="openPage('Projects', this, 'peachpuff')">Projects</button>
+	<button class="tablink" onclick="openPage('Education', this, 'lavenderblush')">Education</button>
+	<button class="tablink" onclick="openPage('Experience', this, 'lavenderblush')">Experience</button>
+	<button class="tablink" onclick="openPage('Skills', this, 'lavenderblush')">Skills</button>
+	<button class="tablink" onclick="openPage('ContactMe', this, 'lavenderblush')">Contact Me</button>
+	
+	<p>The following link will direct you to a tutorial on how to create XML documents.</p>
+	<a href="https://www.w3schools.com/xml/default.asp">XML Tutorial</a>
+	
+<script>
+function openPage(pageName, elmnt, color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+document.getElementById("defaultOpen").click();
+</script>
+
+<footer>
+	<p>All work on this website is the property of Project Team J according to the Copyright Notice. Copyright &copy; 2021.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+	
 	</body>
 </html>
