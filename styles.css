@@ -23,6 +23,7 @@ h5 {
 }
 p {
 	color: black;
+	font-size: 17px;
 }
 ul {
 	color: black;
@@ -30,6 +31,7 @@ ul {
 #Author{
 	color: black;
 	font-family: "American Typewriter", American, serif;
+	font-size: 15px;
 	background-color: lightgray;
 	margin-top: 2em;
 	margin-bottom: 2em;
