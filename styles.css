@@ -1,5 +1,5 @@
 body {
-	background-color: lightgreen;
+	background-color: darkslateblue;
 }
 h1 {
 	color: black;
@@ -92,9 +92,9 @@ body, html {
 	display: block;
 }
 
-#Home {background-color: sienna;}
-#Instructions {background-color: moccasin;}
-#Controls {background-color: darkslateblue;}
-#XMLHelp {background-color: tomato;}
-#FAQs {background-color: darksalmon;}
-#CopyrightNotice {background-color: thistle;}
+#Home {background-color: amethyst;}
+#Instructions {background-color: turquoisegreen;}
+#Controls {background-color: darkseagreen;}
+#XMLHelp {background-color: russiangreen;}
+#FAQs {background-color: amethyst;}
+#CopyrightNotice {background-color: turquoisegreen;}
