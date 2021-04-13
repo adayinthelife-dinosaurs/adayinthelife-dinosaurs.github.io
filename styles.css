@@ -92,9 +92,9 @@ body, html {
 	display: block;
 }
 
-#Home {background-color: amethyst;}
-#Instructions {background-color: turquoisegreen;}
+#Home {background-color: #8963BA;}
+#Instructions {background-color: #AF3EC0;}
 #Controls {background-color: darkseagreen;}
-#XMLHelp {background-color: russiangreen;}
-#FAQs {background-color: amethyst;}
-#CopyrightNotice {background-color: turquoisegreen;}
+#XMLHelp {background-color: #688B58;}
+#FAQs {background-color: #8963BA;}
+#CopyrightNotice {background-color: #AF3EC0;}
