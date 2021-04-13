@@ -56,12 +56,13 @@ ul {
 footer {
 	position: fixed;
 	clear: both;
+	font-size: 16px;
 	text-align: left;
 	color: midnightblue;
 	border-top: 1px solid #999;
 	width: 900 px;
 	bottom: 0px;
-	height: 50px;
+	height: 30px;
 	background-color: skyblue;
 }
 
