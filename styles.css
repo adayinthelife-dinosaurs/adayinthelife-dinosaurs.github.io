@@ -18,13 +18,17 @@ h3 {
 }
 h4 {
 	color: black;
+	font-size: 34px;
+	font-style: bold;
 }
 h5 {
 	color: black;
 	font-style: italic;
 }
-h5 {
+h6 {
 	color: black;
+	font-size: 17px;
+	font-style: italic;
 }
 p {
 	color: black;
