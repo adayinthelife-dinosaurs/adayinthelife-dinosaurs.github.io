@@ -103,6 +103,12 @@ body, html {
 	margin-left: 135px;
     margin-top: -150px;
 }
+.marginauto2 {
+	margin: 10px auto 20px;
+	display: block;
+	margin-left: -135px;
+    margin-top: -150px;
+}
 
 #Home {background-color: #8963BA;}
 #Instructions {background-color: #AF3EC0;}
