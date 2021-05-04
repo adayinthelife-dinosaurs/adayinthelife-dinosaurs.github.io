@@ -11,8 +11,7 @@ h1 {
 }
 h2 {
 	color: black;
-	font-style: bolder;
-	font-style: underline;
+	font-weight: 900;
 }
 h3 {
 	color: black;
